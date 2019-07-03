@@ -1,7 +1,7 @@
 /**
  * Copyright (C), 和信电子商务有限公司
  */
-package com.hexin.lego.job.logger;
+package hexindai;
 
 /**
  * @FileName Liberty

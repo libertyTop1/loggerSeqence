@@ -1,8 +1,9 @@
 /**
  * Copyright (C), 和信电子商务有限公司
  */
-package com.hexin.lego.job.logger;
+package hexindai;
 
+import com.liberty.loggerSeqence.spring.LoggerFactoryBean;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.beans.factory.support.AbstractBeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;

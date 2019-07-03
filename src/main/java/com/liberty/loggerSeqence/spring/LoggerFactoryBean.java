@@ -6,15 +6,6 @@ import org.springframework.beans.factory.FactoryBean;
 
 public class LoggerFactoryBean implements FactoryBean<Logger> {
 
-    static {
-        try {
-            MockFinalLogger classLoader = new MockFinalLogger();
-            Class finalObjectClass = Class.forName("org.slf4j.Logger", true, classLoader);
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-    }
-
     private Class attachedSource;
 
     public LoggerFactoryBean(Class attachedSource){
